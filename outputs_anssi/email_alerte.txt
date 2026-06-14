@@ -1,0 +1,222 @@
+SUJET : 🚨 [ANSSI] 129 vulnérabilités critiques détectées — Action requise (14/06/2026)
+============================================================
+
+╔══════════════════════════════════════════════════════════════╗
+║           ALERTE SÉCURITÉ — BULLETIN ANSSI CERT-FR          ║
+║                     14/06/2026                            ║
+╚══════════════════════════════════════════════════════════════╝
+
+Bonjour,
+
+Notre système de veille automatisé a détecté 129 vulnérabilité(s)
+critique(s) nécessitant une intervention IMMÉDIATE.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RÉSUMÉ EXÉCUTIF
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  • Nombre de CVE critiques     : 129
+  • Score CVSS maximum          : 10.0 / 10
+  • Probabilité exploitation max: 94.5%
+  • Éditeur le plus impacté     : Microsoft
+  • Seuils d'alerte appliqués   : CVSS ≥ 9.0 ET EPSS ≥ 0.5
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔴 TOP 5 VULNÉRABILITÉS PRIORITAIRES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  [1] CVE-2023-35078
+       Produit     : Ivanti — Endpoint Manager Mobile
+       CVSS        : 10.0/10 (CRITICAL)
+       EPSS        : 94.5% de probabilité d'exploitation
+       Type        : Alerte ANSSI
+       CWE         : nan
+       Lien ANSSI  : https://www.cert.ssi.gouv.fr/alerte/CERTFR-2023-ALE-009/
+       Description : An authentication bypass vulnerability in Ivanti EPMM allows unauthorized users to access restricted functionality or re...
+
+  [2] CVE-2023-40044
+       Produit     : Progress Software Corporation — WS_FTP Server
+       CVSS        : 10.0/10 (CRITICAL)
+       EPSS        : 94.4% de probabilité d'exploitation
+       Type        : Avis ANSSI
+       CWE         : CWE-502
+       Lien ANSSI  : https://www.cert.ssi.gouv.fr/avis/CERTFR-2023-AVI-0793/
+       Description : In WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization v...
+
+  [3] CVE-2023-46604
+       Produit     : Apache Software Foundation — Apache ActiveMQ
+       CVSS        : 10.0/10 (CRITICAL)
+       EPSS        : 94.4% de probabilité d'exploitation
+       Type        : Avis ANSSI
+       CWE         : CWE-502
+       Lien ANSSI  : https://www.cert.ssi.gouv.fr/avis/CERTFR-2023-AVI-0919/
+       Description : The Java OpenWire protocol marshaller is vulnerable to Remote Code 
+Execution. This vulnerability may allow a remote att...
+
+  [4] CVE-2023-35082
+       Produit     : Ivanti — EPMM
+       CVSS        : 10.0/10 (CRITICAL)
+       EPSS        : 94.4% de probabilité d'exploitation
+       Type        : Alerte ANSSI
+       CWE         : nan
+       Lien ANSSI  : https://www.cert.ssi.gouv.fr/alerte/CERTFR-2023-ALE-009/
+       Description : An authentication bypass vulnerability in Ivanti EPMM 11.10 and older, allows unauthorized users to access restricted fu...
+
+  [5] CVE-2023-22518
+       Produit     : Atlassian — Confluence Data Center
+       CVSS        : 10.0/10 (CRITICAL)
+       EPSS        : 94.4% de probabilité d'exploitation
+       Type        : Avis ANSSI
+       CWE         : nan
+       Lien ANSSI  : https://www.cert.ssi.gouv.fr/avis/CERTFR-2023-AVI-0899/
+       Description : All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authoriz...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 LISTE COMPLÈTE DES 129 CVE CRITIQUES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CVE ID                 CVSS     EPSS VENDOR               PRODUIT
+--------------------------------------------------------------------------------
+CVE-2023-35078         10.0    94.5% Ivanti               Endpoint Manager Mobile
+CVE-2023-40044         10.0    94.4% Progress Software Corporation WS_FTP Server
+CVE-2023-46604         10.0    94.4% Apache Software Foundation Apache ActiveMQ
+CVE-2023-35082         10.0    94.4% Ivanti               EPMM
+CVE-2023-22518         10.0    94.4% Atlassian            Confluence Data Center
+CVE-2023-22527         10.0    94.4% Atlassian            Confluence Data Center
+CVE-2023-49103         10.0    94.3% nan                  nan
+CVE-2023-22515         10.0    94.3% Atlassian            Confluence Data Center
+CVE-2024-3400          10.0    94.3% Palo Alto Networks   PAN-OS
+CVE-2024-45519         10.0    94.1% nan                  nan
+CVE-2023-20198         10.0    94.1% Cisco                Cisco IOS XE Software
+CVE-2023-7028          10.0    93.6% GitLab               GitLab
+CVE-2024-9463           9.9    94.2% Palo Alto Networks   Expedition
+CVE-2023-2825          10.0    93.0% GitLab               GitLab
+CVE-2022-1388           9.8    94.5% F5                   BIG-IP
+CVE-2023-46747          9.8    94.4% F5                   BIG-IP
+CVE-2022-40684          9.8    94.4% Fortinet             Fortinet FortiOS, FortiProxy, 
+CVE-2021-38647          9.8    94.4% Microsoft            Open Management Infrastructure
+CVE-2023-24489          9.8    94.4% Citrix               Citrix ShareFile Storage Zones
+CVE-2024-4577           9.8    94.4% PHP Group            PHP
+CVE-2023-29357          9.8    94.4% Microsoft            Microsoft SharePoint Server 20
+CVE-2023-36845          9.8    94.4% Juniper Networks     Junos OS
+CVE-2023-1671           9.8    94.3% Sophos               Sophos Web Appliance
+CVE-2023-38203          9.8    94.3% Adobe                ColdFusion
+CVE-2024-13159          9.8    94.1% Ivanti               Endpoint Manager
+CVE-2024-34102          9.8    94.1% Adobe                Adobe Commerce
+CVE-2023-3519           9.8    94.0% Citrix               NetScaler ADC 
+CVE-2024-47575          9.8    93.8% Fortinet             FortiManager
+CVE-2023-29300          9.8    93.8% Adobe                ColdFusion
+CVE-2022-39952          9.8    93.8% Fortinet             FortiNAC
+CVE-2023-23397          9.8    93.6% Microsoft            Microsoft Office LTSC 2021
+CVE-2024-21413          9.8    93.4% Microsoft            Microsoft Office 2019
+CVE-2024-20419         10.0    91.4% Cisco                Cisco Smart Software Manager O
+CVE-2024-8517           9.8    93.2% SPIP                 SPIP
+CVE-2023-34048          9.8    93.2% VMware               VMware vCenter Server
+CVE-2021-31166          9.8    93.1% Microsoft            Windows 10 Version 2004
+CVE-2024-13160          9.8    92.8% Ivanti               Endpoint Manager
+CVE-2023-34039          9.8    92.2% nan                  Aria Operations for Networks
+CVE-2024-55591          9.6    94.1% Fortinet             FortiOS
+CVE-2024-29824          9.6    94.1% Ivanti               EPM
+CVE-2023-21554          9.8    92.2% Microsoft            Windows 10 Version 1809
+CVE-2024-21534          9.8    92.0% nan                  jsonpath-plus
+CVE-2022-21907          9.8    91.9% Microsoft            Windows 10 Version 1809
+CVE-2025-1974           9.8    91.6% kubernetes           ingress-nginx
+CVE-2026-24061          9.8    91.5% GNU                  Inetutils
+CVE-2022-26809          9.8    91.4% Microsoft            Windows 10 Version 1809
+CVE-2025-49113          9.9    90.4% Roundcube            Webmail
+CVE-2024-13161          9.8    91.3% Ivanti               Endpoint Manager
+CVE-2024-42327          9.9    90.3% Zabbix               Zabbix
+CVE-2023-21716          9.8    91.1% Microsoft            Microsoft Office LTSC for Mac 
+CVE-2024-21762          9.6    92.9% Fortinet             FortiProxy
+CVE-2020-14871         10.0    88.9% Oracle Corporation   Solaris Operating System
+CVE-2023-4966           9.4    94.3% Citrix               NetScaler ADC 
+CVE-2024-8963           9.4    94.2% Ivanti               CSA (Cloud Services Appliance)
+CVE-2024-23108          9.7    91.3% Fortinet             FortiSIEM
+CVE-2023-44353          9.8    90.3% Adobe                ColdFusion
+CVE-2024-9264           9.4    94.0% Grafana              Grafana
+CVE-2024-38063          9.8    89.9% Microsoft            Windows 10 Version 1809
+CVE-2025-53770          9.8    89.6% Microsoft            Microsoft SharePoint Enterpris
+CVE-2023-49105          9.8    89.6% nan                  nan
+CVE-2024-0012           9.3    94.3% Palo Alto Networks   Cloud NGFW
+CVE-2023-48788          9.3    94.2% Fortinet             FortiClientEMS
+CVE-2022-42475          9.3    94.0% Fortinet             FortiProxy
+CVE-2024-9465           9.2    94.3% Palo Alto Networks   Expedition
+CVE-2025-40551          9.8    87.9% SolarWinds           Web Help Desk
+CVE-2024-49112          9.8    87.8% Microsoft            Windows 10 Version 1809
+CVE-2024-3094          10.0    86.0% nan                  nan
+CVE-2024-21887          9.1    94.4% Ivanti               ICS
+CVE-2021-26855          9.1    94.4% Microsoft            Microsoft Exchange Server 2016
+CVE-2024-28987          9.1    94.3% SolarWinds           Web Help Desk
+CVE-2021-34473          9.1    94.2% Microsoft            Microsoft Exchange Server 2013
+CVE-2022-36067         10.0    85.4% patriksimek          vm2
+CVE-2024-38077          9.8    87.1% Microsoft            Windows Server 2019
+CVE-2023-26359          9.8    86.8% Adobe                ColdFusion
+CVE-2021-35211          9.0    94.3% SolarWinds           Serv-U Managed File Transfer S
+CVE-2025-0282           9.0    94.1% Ivanti               Connect Secure
+CVE-2024-5910           9.3    91.0% Palo Alto Networks   Expedition
+CVE-2021-34523          9.0    94.0% Microsoft            Microsoft Exchange Server 2013
+CVE-2024-6235           9.4    89.9% NetScaler            NetScaler Console
+CVE-2025-1302           9.8    85.8% nan                  jsonpath-plus
+CVE-2022-34718          9.8    85.8% Microsoft            Windows 10 Version 1809
+CVE-2025-64446          9.4    89.4% Fortinet             FortiWeb
+CVE-2026-20182         10.0    83.8% Cisco                Cisco Catalyst SD-WAN Manager
+CVE-2025-29927          9.1    92.1% vercel               next.js
+CVE-2026-3055           9.3    89.9% NetScaler            ADC
+CVE-2024-53677          9.5    87.8% Apache Software Foundation Apache Struts
+CVE-2023-27997          9.2    90.6% Fortinet             FortiOS-6K7K
+CVE-2024-20439          9.8    84.9% Cisco                Cisco Smart License Utility
+CVE-2023-30547          9.8    83.6% patriksimek          vm2
+CVE-2024-5806           9.1    89.9% Progress             MOVEit Transfer
+CVE-2024-37084          9.8    83.3% Spring               Spring Cloud Data Flow
+CVE-2026-1281           9.8    81.6% Ivanti               Endpoint Manager Mobile
+CVE-2024-28986          9.8    81.5% SolarWinds           Web Help Desk
+CVE-2024-37404          9.1    87.2% Ivanti               Connect Secure
+CVE-2023-34992          9.6    81.9% Fortinet             FortiSIEM
+CVE-2023-29017         10.0    78.1% patriksimek          vm2
+CVE-2024-38812          9.8    79.5% nan                  VMware vCenter Server
+CVE-2021-42756          9.3    83.2% Fortinet             FortiWeb
+CVE-2024-9464           9.3    83.1% Palo Alto Networks   Expedition
+CVE-2023-38204          9.8    78.0% Adobe                ColdFusion
+CVE-2025-59287          9.8    78.0% Microsoft            Windows Server 2019
+CVE-2025-21298          9.8    74.0% Microsoft            Windows 10 Version 1809
+CVE-2024-32002          9.1    79.6% git                  git
+CVE-2026-1340           9.8    73.9% Ivanti               Endpoint Manager Mobile
+CVE-2025-5777           9.3    77.2% NetScaler            ADC
+CVE-2024-26304          9.8    73.2% Hewlett Packard Enterprise (HPE) Aruba Mobility Conductor (form
+CVE-2023-42115          9.8    72.9% Exim                 Exim
+CVE-2024-22476         10.0    69.0% nan                  Intel(R) Neural Compressor sof
+CVE-2024-43468          9.8    69.4% Microsoft            Microsoft Configuration Manage
+CVE-2024-40711          9.8    68.2% Veeam                Backup and  Recovery
+CVE-2024-29847         10.0    66.6% Ivanti               EPM
+CVE-2026-21643          9.1    70.9% Fortinet             FortiClientEMS
+CVE-2025-25257          9.6    64.9% Fortinet             FortiWeb
+CVE-2024-42448          9.9    61.3% Veeam                Service Provider Console
+CVE-2023-44350          9.8    61.9% Adobe                ColdFusion
+CVE-2025-32433         10.0    59.3% erlang               otp
+CVE-2025-54236          9.1    61.7% Adobe                Adobe Commerce
+CVE-2025-55182         10.0    55.1% Meta                 react-server-dom-webpack
+CVE-2026-20127         10.0    54.8% Cisco                Cisco Catalyst SD-WAN Manager
+CVE-2024-1874           9.4    57.5% PHP Group            PHP
+CVE-2025-22457          9.0    58.9% Ivanti               Connect Secure
+CVE-2025-22467          9.9    53.2% Ivanti               Connect Secure
+CVE-2024-37079          9.8    53.8% nan                  VMware vCenter Server
+CVE-2024-29849          9.8    53.6% Veeam                Backup & Replication
+CVE-2024-23113          9.8    51.2% Fortinet             FortiSwitchManager
+CVE-2025-22224          9.3    51.5% VMware               ESXi
+CVE-2024-34783          9.1    50.1% Ivanti               EPM
+CVE-2024-32840          9.1    50.1% Ivanti               EPM
+CVE-2024-34779          9.1    50.1% Ivanti               EPM
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ ACTIONS RECOMMANDÉES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Appliquer immédiatement les correctifs disponibles
+  2. Isoler les systèmes affectés si aucun patch n'est disponible
+  3. Surveiller les logs pour détecter toute exploitation
+  4. Consulter les bulletins ANSSI pour les recommandations détaillées
+     → https://www.cert.ssi.gouv.fr/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ce message est généré automatiquement par le système de veille ANSSI.
+Destinataire : securite@entreprise.com
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
